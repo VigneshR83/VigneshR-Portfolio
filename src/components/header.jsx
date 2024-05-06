@@ -14,7 +14,7 @@ const Header = () => {
                 <ul className='nav-links flex gap-8 font-semibold text-lg sm:text-xl select-none'>
                   <li><a className='hover:text-blue-500 duration-300 cursor-pointer'>Home</a></li>
                   <li><a className='hover:text-blue-500 duration-300 cursor-pointer'>Skills</a></li>
-                  <li><a className='hover:text-blue-500 duration-300 cursor-pointer'>About Me</a></li>
+                  <li><a className='hover:text-blue-500 duration-300 cursor-pointer'>About</a></li>
                   <li><a className='hover:text-blue-500 duration-300 cursor-pointer'>Contact</a></li>
                 </ul>
               </nav>
