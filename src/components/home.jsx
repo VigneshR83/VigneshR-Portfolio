@@ -1,6 +1,6 @@
 import React from 'react';
 import chair from '../assets/chair.png';
-import resumePDF from '../assets/Resume.pdf';
+import resumePDF from '../assets/vigneshr.pdf';
 
 const Home = () => {
   return (
