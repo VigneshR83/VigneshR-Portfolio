@@ -1,5 +1,6 @@
 import React from 'react';
 import chair from '../assets/chair.png';
+import resume from '../assets/VIGNESH R - Resume.pdf'
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
           <p className='text-gray-500 text-sm sm:text-lg mt-2 md:text-xl md:mt-4'>A passionate Frontend Developer weaving digital dreams into reality.
             with a keen eye for design and a knack for coding, I bring ideas to
             life with pixel-perfect precision.</p>
-          <a href="" download="Resume">
+          <a href={resume} download="Resume">
             <button className='w-auto md:mt-5 md:text-xl uppercase h-10 hover:scale-105 bg-blue-500 px-4 rounded-md font-semibold text-white mt-3 duration-300 hover:shadow-md'>download cv</button>
           </a>
         </div>
